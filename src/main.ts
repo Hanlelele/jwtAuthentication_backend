@@ -8,7 +8,8 @@ async function bootstrap() {
   app.enableCors({
     origin: [
           'http://localhost:5173', 
-          'https://jwt-authentication-backend-git-main-hanleleles-projects.vercel.app'
+          'https://jwt-authentication-backend-git-main-hanleleles-projects.vercel.app',
+          'https://jwt-authentication-backend.vercel.app'
     ],
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
     credentials: true,
